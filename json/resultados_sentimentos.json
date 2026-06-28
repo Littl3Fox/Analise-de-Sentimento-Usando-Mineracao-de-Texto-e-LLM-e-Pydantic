@@ -1,0 +1,158 @@
+{
+  "modelo_principal": "HDBSCAN",
+  "n_comentarios": 4377,
+  "n_clusters": 8,
+  "silhouette_kmeans": 0.438,
+  "silhouette_hdbscan": 0.4681999981403351,
+  "rotulos": [
+    {
+      "cluster": 5,
+      "tema": "Acusações de corrupção e irresponsabilidade contra Lula",
+      "categoria_tema": "corrupcao",
+      "sentimento": "negativo",
+      "intensidade": 0.9,
+      "alinhamento": "direita",
+      "confianca": 0.8,
+      "tamanho": 1352
+    },
+    {
+      "cluster": 2,
+      "tema": "Desempenho e popularidade de Bolsonaro no debate",
+      "categoria_tema": "outros",
+      "sentimento": "positivo",
+      "intensidade": 0.9,
+      "alinhamento": "direita",
+      "confianca": 0.9,
+      "tamanho": 579
+    },
+    {
+      "cluster": 3,
+      "tema": "Qualidade e organização do debate presidencial",
+      "categoria_tema": "outros",
+      "sentimento": "positivo",
+      "intensidade": 0.9,
+      "alinhamento": "direita",
+      "confianca": 0.7,
+      "tamanho": 385
+    },
+    {
+      "cluster": 6,
+      "tema": "Críticas a candidatos e alianças políticas",
+      "categoria_tema": "outros",
+      "sentimento": "negativo",
+      "intensidade": 0.8,
+      "alinhamento": "esquerda",
+      "confianca": 0.9,
+      "tamanho": 367
+    },
+    {
+      "cluster": 4,
+      "tema": "Desempenho e propostas das candidatas no debate",
+      "categoria_tema": "outros",
+      "sentimento": "negativo",
+      "intensidade": 0.9,
+      "alinhamento": "nao_identificavel",
+      "confianca": 0.1,
+      "tamanho": 293
+    },
+    {
+      "cluster": 1,
+      "tema": "Reações e humor a momentos do debate presidencial",
+      "categoria_tema": "outros",
+      "sentimento": "misto",
+      "intensidade": 0.7,
+      "alinhamento": "nao_identificavel",
+      "confianca": 0.1,
+      "tamanho": 188
+    },
+    {
+      "cluster": 0,
+      "tema": "Crescimento econômico e futuro do Brasil",
+      "categoria_tema": "economia",
+      "sentimento": "negativo",
+      "intensidade": 0.7,
+      "alinhamento": "nao_identificavel",
+      "confianca": 0.3,
+      "tamanho": 72
+    }
+  ],
+  "cruzamento_tema_sentimento": [
+    {
+      "tema": "outros",
+      "total": 1812,
+      "positivo": 964,
+      "negativo": 660,
+      "neutro": 0,
+      "misto": 188
+    },
+    {
+      "tema": "corrupcao",
+      "total": 1352,
+      "positivo": 0,
+      "negativo": 1352,
+      "neutro": 0,
+      "misto": 0
+    },
+    {
+      "tema": "economia",
+      "total": 72,
+      "positivo": 0,
+      "negativo": 72,
+      "neutro": 0,
+      "misto": 0
+    }
+  ],
+  "polarizacao_por_tema": [
+    {
+      "tema": "outros",
+      "intensidade_emocional": 1.0,
+      "balanco_apoio_critica": 0.832,
+      "indice_polarizacao": 0.832
+    },
+    {
+      "tema": "corrupcao",
+      "intensidade_emocional": 1.0,
+      "balanco_apoio_critica": 0.0,
+      "indice_polarizacao": 0.0
+    },
+    {
+      "tema": "economia",
+      "intensidade_emocional": 1.0,
+      "balanco_apoio_critica": 0.0,
+      "indice_polarizacao": 0.0
+    }
+  ],
+  "inclinacao_agregada": {
+    "comentarios_total": 3236,
+    "comentarios_identificaveis": 2683,
+    "pct_identificavel": 82.9,
+    "distribuicao_entre_identificaveis": {
+      "direita": 86.3,
+      "esquerda": 13.7
+    },
+    "obs": "Discurso agregado e anonimizado; não classifica indivíduos."
+  },
+  "custos_1000": [
+    {
+      "Modelo": "gemini-2.5-flash",
+      "Entrada (US$)": 0.2652,
+      "Saída (US$)": 1.245,
+      "Total 1000 (US$)": 1.5102,
+      "Com Batch -50% (US$)": 0.7551
+    },
+    {
+      "Modelo": "gemini-3-flash-preview",
+      "Entrada (US$)": 0.4419,
+      "Saída (US$)": 1.494,
+      "Total 1000 (US$)": 1.9359,
+      "Com Batch -50% (US$)": 0.968
+    },
+    {
+      "Modelo": "gemini-3.1-pro-preview",
+      "Entrada (US$)": 1.7677,
+      "Saída (US$)": 5.976,
+      "Total 1000 (US$)": 7.7437,
+      "Com Batch -50% (US$)": 3.8719
+    }
+  ]
+}
