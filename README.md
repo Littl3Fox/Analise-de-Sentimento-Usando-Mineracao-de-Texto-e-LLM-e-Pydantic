@@ -8,9 +8,9 @@ Alunos:
 *   Ítalo Timbó Santos
 *   Artur Romão Soares Barbosa
    
-**OBS: Recomendo baixar o PDF do notebook executado e dar zoom**  
-**OBS²: O Diário de decisões foi registrado no notebook, o porque de cada decisão foi colocado antes de cada seção**    
-**OBS³:Os entregáveis estão todos documentados no notebook**  
+ 
+**OBS: O Diário de decisões foi registrado no notebook, o porque de cada decisão foi colocado antes de cada seção**    
+**OBS:Os entregáveis estão todos documentados no notebook**  
 **OBS: Algumas tabelas foram omitidas no Git, mas acompanham para avalição no moodle para a professora(pasta .zip)**  
 **OBS: Usamos o Colab para produzir o trabalho, baixar o notebook e executá-lo no Colab deve gerar os mesmos resultados e/ou parecidos que os nossos.**
 
