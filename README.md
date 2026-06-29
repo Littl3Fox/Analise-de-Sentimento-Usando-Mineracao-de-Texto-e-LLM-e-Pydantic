@@ -8,7 +8,8 @@ Alunos:
 *   Ítalo Timbó Santos
 *   Artur Romão Soares Barbosa
    
-**OBS: Recomendo baixar o PDF do notebook executado e dar zoom**
+**OBS: Recomendo baixar o PDF do notebook executado e dar zoom**  
+**OBS²: O Diário de decisões foi registrado no notebook, o porque de cada decisão foi colocado antes de cada seção**
 
 O objetivo do projeto é analisar comentários do YouTube sobre um debate presidencial utilizando técnicas de Processamento de Linguagem Natural (PLN), aprendizado de máquina não supervisionado e Inteligência Artificial Generativa.
 
