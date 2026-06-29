@@ -12,7 +12,7 @@ Alunos:
 **OBS²: O Diário de decisões foi registrado no notebook, o porque de cada decisão foi colocado antes de cada seção**    
 **OBS³:Os entregáveis estão todos documentados no notebook**  
 **OBS: Algumas tabelas foram omitidas no Git, mas acompanham para avalição no moodle para a professora(pasta .zip)**  
-**OBS: Usamos o Colab para produzir o trabalho, baixar o notebook e executá-lo no Colab deve gerar os mesmos resultados e/ou parecedos que os nossos.**
+**OBS: Usamos o Colab para produzir o trabalho, baixar o notebook e executá-lo no Colab deve gerar os mesmos resultados e/ou parecidos que os nossos.**
 
 
 O objetivo do projeto é analisar comentários do YouTube sobre um debate presidencial utilizando técnicas de Processamento de Linguagem Natural (PLN), aprendizado de máquina não supervisionado e Inteligência Artificial Generativa.
